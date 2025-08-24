@@ -21,5 +21,3 @@ Utilizado para gerenciar o estado do aplicativo. Ele armazena tanto a menção i
 Você pode testar o aplicativo diretamente no Snack
 . Basta colar o código e ver o app em funcionamento em segundos, sem precisar de configurações locais.
 React Native: Para criação de aplicativos móveis nativos.
-
-useState: Para gerenciamento de estado dentro do aplicativo.
