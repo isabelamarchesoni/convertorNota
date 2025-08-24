@@ -12,7 +12,7 @@ Este aplicativo permite converter menções acadêmicas (MB, B, R) em notas num�
 - **B** = 7.5
 - **R** = 6
 
-###🌟 Destaques do Código
+### 🌟 Destaques do Código
 
 **useState:**
 Utilizado para gerenciar o estado do aplicativo. Ele armazena tanto a menção inserida pelo usuário quanto a nota convertida. Isso garante que a interface seja atualizada automaticamente quando o usuário interagir com o aplicativo.
