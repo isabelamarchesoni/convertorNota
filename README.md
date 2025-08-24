@@ -1,11 +1,25 @@
-# Sample Snack app
+# 🏆 **Conversor de Menções** 📊
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este aplicativo permite converter menções acadêmicas (MB, B, R) em notas numéricas. Ideal para estudantes que precisam rapidamente verificar suas médias.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## 🚀 **Como Funciona?**
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+1. **Insira a Menção:** Coloque uma das menções válidas ("MB", "B" ou "R") na caixa de texto.
+2. **Clique em "Converter":** O aplicativo irá converter a menção em uma nota numérica correspondente.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+### Notas:
+- **MB** = 10
+- **B** = 7.5
+- **R** = 6
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+###🌟 Destaques do Código
+
+**useState:**
+Utilizado para gerenciar o estado do aplicativo. Ele armazena tanto a menção inserida pelo usuário quanto a nota convertida. Isso garante que a interface seja atualizada automaticamente quando o usuário interagir com o aplicativo.
+
+**Snack:**
+Você pode testar o aplicativo diretamente no Snack
+. Basta colar o código e ver o app em funcionamento em segundos, sem precisar de configurações locais.
+React Native: Para criação de aplicativos móveis nativos.
+
+useState: Para gerenciamento de estado dentro do aplicativo.
